@@ -1,0 +1,277 @@
+
+body{font-family: "Montserrat", sans-serif;
+
+display: block;
+position: absolute;
+
+
+
+}
+
+
+nav .navbar-toggler{color: #E20000 ;
+border:  #E20000 1px solid;
+width: 50px;}
+
+
+#inicio, #contacto{background-image: url('../images/fondo-contacto.png');
+    background-size: 100%;
+    background-repeat: no-repeat  ;
+    margin-left: 150px;}
+
+#proyectos,  #sobremi{background-image: url('../images/fondo-proyectos.png ');
+    background-size: 100%;
+    background-repeat: no-repeat  ;
+    margin-left: 150px;}
+
+    
+
+h1{color: #E20000;
+    font-size: 30px;
+   text-align:left;
+    display: block;
+   }
+
+textarea{height: 150px;}
+
+
+ p{color:#282828;
+    }
+
+p a{ text-decoration: none;
+color: #282828;}
+
+#btnEnviar{border-radius:20px;
+    font-size: 20px;
+    color: #E20000;
+    text-align: center;
+    background-color:white;
+    cursor:pointer;
+    /*mano cuando me pongo arriba del boton*/}
+
+#btnEnviar:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+ color: rgba(0, 0, 0, 0.466);}
+
+
+.form-control{border-radius: 15px; }
+
+
+.nav-item a{ color: #282828;font-size: 20px;}
+
+.nav-item a:hover{color: #282828;}
+
+.active{border: #E20000 1px solid;
+border-radius: 16px;
+font-size: 20px;}
+
+.QR{height: 250PX;width: 250px;}
+
+
+H2{COLOR: white ; }
+
+.btn-rojo{background-color: #E20000;
+    color: white;
+    border-radius: 16px;
+    border: solid #E20000 1px ;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    
+}
+
+
+
+.btn-blanco{background-color: white;
+    color:red;
+    border-radius: 16px;
+    border: solid #E20000 1px ;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    
+}
+
+#proyectos footer a{color:#E20000  ;}
+
+
+.btn-blanco:hover{ color:#370a6d;
+    }
+
+.btn-rojo:hover{color: white;
+background-color: #370a6d;}
+
+
+footer{font-weight: 100;position: absolute;} 
+footer a{color: white;}
+
+footer .fa-github{font-size: 30px;}
+
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-linkedin-in:hover{
+    color:#370a6d
+}
+
+#proyectos footer .fa-github{font-size: 30px;
+color: red;}
+footer .fa-github:hover{color:#370a6d}
+#poyectos footer a{color: red;}
+
+#proyectos .bgwhite{background-color: white;}
+
+
+
+
+.whatsapp{background-color: #370a6d;   height: 32px;
+  
+position: fixed;
+bottom: 0px;
+right: 40px;
+height: 80px;
+width:60px;
+border-top-left-radius: 16PX;
+padding: 60px;}
+
+.fa-whatsapp{font-size: 40px;color: white; padding-right: 40px;   }
+
+
+#inicio .proyectimg{height:250px;}
+#inicio .proyectimg:hover{height: 270px;}
+
+
+.cohete{vertical-align: middle  !important;
+    height:350px ;
+}
+
+
+.proyectimg:hover{cursor: pointer; }
+
+.bienvenido{border:white solid 1px;
+
+border-radius: 16px;
+font-size: 20px;
+text-decoration:none     ;
+padding:5px;}    
+
+
+.div-cohete p {
+    text-align: center;
+    color: white ;
+    font-size: 20px;
+    border-radius: 16px;
+border: solid white 1px;}
+
+#proyectos h4{
+    color:white;
+font-size: 17px;
+}
+#proyectos .proyecto p{
+    font-size: 14px;
+    height: 100px;
+  
+}
+
+
+
+
+@media(max-width:750px){
+
+
+
+.QR{
+    height:210px;
+    width:210px;
+  
+}
+
+#contacto {
+    background-image: url(../images/fondo-proyectos.png);
+background-size: 100%; 
+background-repeat: no-repeat;
+margin-left: 0px; 
+}
+#proyectos{
+    background-image: url(../images/fondo-proyectos.png);
+background-size: 100%; 
+background-repeat: no-repeat;
+margin-left: 0px; 
+
+}
+.whatsapp{
+    right:20px;
+}
+
+
+#inicio{
+    background-image: url(../images/fondo-proyectos.png);
+background-size: 100%; 
+background-repeat: no-repeat;
+margin-left: 0px; 
+}
+ 
+
+h1{text-align: center;}
+
+  
+
+body{margin-left:0px ;}
+
+/*indeex*/
+
+#inicio .cohete{
+    height: 410px;
+    text-align: center!important;
+    width: 200px;
+}
+
+.cohete{vertical-align: middle !important;}
+
+
+.cohete:hover{cursor: pointer; }
+
+.bienvenido{border:white solid 1px;
+border-radius: 16px;
+font-size: 20px;
+text-decoration:none;
+padding:5px;}    
+
+#inicio .div-cohete p{
+border: 1px solid #ff4a49;
+border-radius: 16px;
+
+    color:#ff4a49;
+}
+#inicio footer a {color:#ff4a49 ;}
+
+        
+#contacto footer a{color:#ff4a49 ;}
+  }
