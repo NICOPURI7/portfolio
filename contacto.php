@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE php>
+<php lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Font Awesome/css/fontawesome.min.css/">
     <link rel="stylesheet" href="css/Font Awesome/css/all.min.css">
-    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/Estilos.cssv= <?php echo rand(100,500);?>">
     <title>Contacto</title>
 
 </head>
@@ -29,17 +29,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item  pb-5">
-                            <a class="nav-link px-3 py-1" aria-current="page" href="index.html">Inicio</a>
+                    <li class="nav-item  pb-5">
+                            <a class="nav-link px-3 py-1" aria-current="page" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item px-3 ">
-                            <a class="nav-link px-3 py-1" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link  px-3 py-1" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item px-3 ">
-                            <a class="nav-link px-3 py-1 " href="sobremi.html">Sobre mí</a>
+                            <a class="nav-link px-3 py-1 " href="sobremi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item px-3 ">
-                            <a class="nav-link active px-3 py-1" href="contacto.html">Contacto</a>
+                            <a class="nav-link  active px-3 py-1" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-inline">
@@ -59,7 +59,7 @@
                         <p>Te invito a que te contactes enviándome un mensaje o bien por Whatsapp.</a>
                         </p>
 
-                        <img src="images/WhatsApp Image 2021-12-29 at 5.31.47 PM.jpeg" class="QR p-5">
+                        <img src="images/WhatsApp Image 2021-12-29 at 5.31.47 PM.jpeg" class="QR p-5" style="border-radius: 25%;">
                     </div>
                     <div class="col-sm 6 col-12 ">
                         <form action="" method="POST">
@@ -118,4 +118,4 @@
 </body>
 
 <script src="css/Bootstrap/js/bootstrap.bundle.min.js"></script>
-</html>
+</php>

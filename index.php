@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE php>
+<php lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Font Awesome/css/fontawesome.min.css/">
     <link rel="stylesheet" href="css/Font Awesome/css/all.min.css">
-    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/Estilos.css?v= <?php echo rand(100,500);?>">
     <title>Inicio</title>
 </head>
 
@@ -27,18 +27,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                <li class="nav-item  pb-5">
-                    <a class="nav-link active px-3 py-1" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item px-3 ">
-                    <a class="nav-link px-3 py-1" href="proyectos.html">Proyectos</a>
-                </li>
-                <li class="nav-item px-3 ">
-                    <a class="nav-link px-3 py-1 " href="sobremi.html">Sobre mí</a>
-                </li>
-                <li class="nav-item px-3 ">
-                    <a class="nav-link  px-3 py-1" href="contacto.html">Contacto</a>
-                </li>
+            <li class="nav-item  pb-5">
+                            <a class="nav-link active px-3 py-1" aria-current="page" href="index.php">Inicio</a>
+                        </li>
+                        <li class="nav-item px-3 ">
+                            <a class="nav-link  px-3 py-1" href="proyectos.php">Proyectos</a>
+                        </li>
+                        <li class="nav-item px-3 ">
+                            <a class="nav-link px-3 py-1 " href="sobremi.php">Sobre mí</a>
+                        </li>
+                        <li class="nav-item px-3 ">
+                            <a class="nav-link  px-3 py-1" href="contacto.php">Contacto</a>
+                        </li>
             </ul>
             <div class="d-inline">
                 <a href="" class="btn-rojo mx-3 p-2">Descargar mi CV <i class="fas fa-download"></i></a>
@@ -83,5 +83,5 @@
 
 
 </body>
-<script src="css/Bootstrap/js/bootstrap.bundle.min.js"></script>
-</html>
+      <script src="css/Bootstrap/js/bootstrap.bundle.min.js"></script>
+</php>

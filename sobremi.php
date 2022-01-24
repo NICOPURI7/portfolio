@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE php>
+<php lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Font Awesome/css/fontawesome.min.css/">
     <link rel="stylesheet" href="css/Font Awesome/css/all.min.css">
-    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/Estilos.cssv= <?php echo rand(100,500);?>">
     <title>Sobre mi</title>
 
 </head>
@@ -30,17 +30,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item  pb-5">
-                            <a class="nav-link px-3 py-1" aria-current="page" href="index.html">Inicio</a>
+                    <li class="nav-item  pb-5">
+                            <a class="nav-link px-3 py-1" aria-current="page" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item px-3 ">
-                            <a class="nav-link px-3 py-1" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link  px-3 py-1" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item px-3 ">
-                            <a class="nav-link px-3 py-1 active " href="sobremi.html">Sobre mí</a>
+                            <a class="nav-link active px-3 py-1 " href="sobremi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item px-3 ">
-                            <a class="nav-link px-3 py-1" href="contacto.html">Contacto</a>
+                            <a class="nav-link  px-3 py-1" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-inline">
@@ -67,24 +67,12 @@
                         </p>
                     </div>
 
-
-                    <div class="d-inline">
-                        <a href="" class="btn-rojo mx-3 p-2">Descargar mi CV <i class="fas fa-download"></i></a>
-                    </div>
-                    <div>
-                        <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/nicolas-puricelli-321a86202/" target="_blank"
-                            title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-
                 </div>
 
             </div>
             <div class="col-6 ps-5 ">
-                <img src="images/yo.jpeg" class="rounded-circle" alt="yo"  width="300px" >
+                <img src="images/yo.jpeg" class="rounded-circle " alt="yo"  width="300px" style="border: solid 10px white;" >
             </div>
-
-
 
 
         </div>
@@ -119,4 +107,4 @@
 
 <script src="css/Bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</html>
+</php>
