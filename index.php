@@ -1,3 +1,10 @@
+<?php 
+$pg="inicio";
+
+
+?>
+
+
 <!DOCTYPE php>
 <php lang="es">
 
@@ -8,44 +15,13 @@
     <link rel="stylesheet" href="css/Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Font Awesome/css/fontawesome.min.css/">
     <link rel="stylesheet" href="css/Font Awesome/css/all.min.css">
-    <link rel="stylesheet" href="css/Estilos.css?v= <?php echo rand(100,500);?>">
+    <link rel="stylesheet" href="css/Estilos.css">
     <title>Inicio</title>
 </head>
 
 <body id="inicio">
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md mb-4">
-
-        <button class="navbar-toggler p-0 m-0 pt-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-            <div clss="navbar-collapse collapse show" id="navbarcollapse" style>
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2"></ul>
-                <div class="d-inline"></div>
-            </div>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-            <li class="nav-item  pb-5">
-                            <a class="nav-link active px-3 py-1" aria-current="page" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item px-3 ">
-                            <a class="nav-link  px-3 py-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item px-3 ">
-                            <a class="nav-link px-3 py-1 " href="sobremi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item px-3 ">
-                            <a class="nav-link  px-3 py-1" href="contacto.php">Contacto</a>
-                        </li>
-            </ul>
-            <div class="d-inline">
-                <a href="" class="btn-rojo mx-3 p-2">Descargar mi CV <i class="fas fa-download"></i></a>
-            </div>
-
-        </div>
-    </nav>
+   <?php include_once "header.php";?>
     <main class="container">
         <div class="row">
             <div class="col-12 text-center pt-5 mb-5 div-cohete ">
