@@ -1,7 +1,36 @@
 <?php 
 $pg="contacto";
 
+if($_POST){
+    $nombre = $_POST["txtNombre"];
+    $correo = $_POST["txtCorreo"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
 
+    // Varios destinatarios
+    $para = "nelson.tarche@gmail.com";
+    $titulo = 'Recibiste un mensaje desde tu Web';
+
+    // mensaje
+    $cuerpo = "
+    Nombre: $nombre <br>
+    Correo: $correo <br>
+    Telefono: $telefono <br>
+    Mensaje: $mensaje
+    ";
+
+    // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+    // Cabeceras adicionales
+    $cabeceras .= 'To: NICOLASLINEA63@GMAIL.COM' . "\r\n";
+    $cabeceras .= 'From: contacto@NICOPURI.com.ar' . "\r\n";
+
+    // Enviarlo
+    mail($para, $titulo, $cuerpo, $cabeceras);
+    header("Location: confirmacion_mensaje.php");
+}
 ?>
 
 <!DOCTYPE php>
@@ -39,10 +68,10 @@ $pg="contacto";
                                 <input type="text" name="txtNombre" placeholder="Nombre" class="form-control shadow ">
                             </div>
                             <div class="pb-3">
-                                <input type="email" name="txtcorreo" placeholder="Correo" class="form-control shadow">
+                                <input type="email" name="txtCorreo" placeholder="Correo" class="form-control shadow">
                             </div>
                             <div class="pb-3">
-                                <input type="tel" name="txttelefono" placeholder="whatsapp" class="form-control shadow">
+                                <input type="tel" name="txtTelefono" placeholder="whatsapp" class="form-control shadow">
                             </div>
                             <div class="pb-3">
                                 <textarea name="txtMensaje" id="txtMensaje" placeholder="Escribe aquí tu mensaje"
