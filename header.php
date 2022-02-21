@@ -27,7 +27,7 @@
                         </li>
                     </ul>
                     <div class="d-inline">
-                        <a href="" class="btn-rojo mx-3 p-2">Descargar mi CV <i class="fas fa-download"></i></a>
+                        <a href="file:///C:/Users/Nicolas/Desktop/archivos/Curriculum.pdf" class="btn-rojo mx-3 p-2">Descargar mi CV <i class="fas fa-download"></i></a>
                     </div>
 
                 </div>

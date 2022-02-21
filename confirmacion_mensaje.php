@@ -34,7 +34,7 @@ $pg="contacto";
 
 
    
-
+    <?php include_once "footer.php";?>
 <div class="whatsapp pb-4 pt-3 px-3">
         <a href="https://api.whatsapp.com/send?phone=541127680155" title="Whatsapp"><i class="fab fa-whatsapp "></i></a>
     </div>
