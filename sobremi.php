@@ -194,7 +194,7 @@ $pg="sombre_mi";
                         </div>
                         <div class="col-12- col-sm-10 p-3">
                             <h3>Bachiller Cs Economicas</h3>
-                            <h4>Instituto San Ignació</h4>
+                            <h4>Instituto San Ignacio</h4>
                             <h5>2012 – 2017</h5>
                             
                                
@@ -204,7 +204,7 @@ $pg="sombre_mi";
                 <div class="col-12 col-sm-6">
                     <div class="row ">
                         <div class="col-2 py-3 my-auto d-none d-sm-block">
-                            <img src="https://nelsontarche.com.ar/images/logo-depcsuite.svg" class="img-fluid baw" title="San_Ignacio">
+                            <img src="https://nelsontarche.com.ar/images/logo-depcsuite.svg" class="img-fluid baw" title="curso_prog">
                         </div>
                         <div class="col-12- col-sm-10 p-3">
                             <h3>Curso de Programación Web Full Stack</h3>
